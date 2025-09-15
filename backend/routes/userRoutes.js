@@ -1,3 +1,6 @@
+const users = [
+  {email: 'priya123@gmail.com', password: 'pass123', name: 'priya'}
+];
 const express = require('express');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
